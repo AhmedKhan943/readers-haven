@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORM SUBMITION</title>
+        <link rel="icon" type="image/x.icon" href="assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script>
+          function myfunction(){
+              document.getElementById("joker").innerHTML="bye bye";
+          }
+        </script>
+      </head>
+      <body>
+        <div class="topnav">
+            <img src="assets/images/generative-ai-illustration-of-islamic-library-books-wallpaper-bright-attractive-love-for-books-photo.jpeg" alt="books image" width="120" height="120">
+            <a href="index.html">HOME</a>
+            <a href="blog.html">INFO</a>
+            <a href="contact.html">CONTACT</a>
+            <a class="active" href="form.html">FORM</a>
+        </div>
+        <br><br>
+        <p id="joker">hello readers</p>
+        <button type="button" onclick="myfunction()">click now</button>
+        <br><br>
+        <img src="assets/images/undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_(1)_kf4d.png" alt="sign up image" width="320" height="320">
+        <br>
+        <h2>LOGIN FORM</h2>
+        <form action="https://openlibrary.org/account/login?redirect=%2Faccount%2Fbooks" method="POST">
+            <fieldset>
+                <div class="row">
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                  </div>
+                </div>
+                <div>
+                  <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div>
+                  <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
+                </div>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+        <br>
+        <footer>
+          <p> &#128519;COME TO OUR LIBRARY &#128519;</p>
+        </footer>
+      </body>
+</html>
